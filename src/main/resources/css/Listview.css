@@ -1,0 +1,22 @@
+.list-view {
+    -fx-background-color: rgba(255, 255, 255, 0.2);
+}
+
+.list-cell {
+    -fx-background-color: transparent;
+    -fx-border-width: 10;
+    -fx-border-color: rgba(255, 255, 255, 0.2);
+    -fx-font-family: 'Century Gothic';
+}
+
+.list-cell:pressed {
+    -fx-background-color: derive(rgba(255, 255, 255, 0.2), -10%);
+    -fx-border-color: derive(rgba(255, 255, 255, 0.2), -10%);
+    -fx-font-family: 'Century Gothic';
+}
+
+.list-cell:selected {
+    -fx-background-color: derive(rgba(255, 255, 255, 0.2), -20%);
+    -fx-border-color: derive(rgba(255, 255, 255, 0.2), -20%);
+    -fx-font-family: 'Century Gothic';
+}

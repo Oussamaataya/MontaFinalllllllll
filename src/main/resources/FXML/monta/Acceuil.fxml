@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.monta.Acceuil">
+   <children>
+      <HBox fx:id="box" prefHeight="80.0" prefWidth="800.0" />
+      <Label layoutX="306.0" layoutY="270.0" prefHeight="59.0" prefWidth="153.0" text="ECOLINK" textFill="#6d757c">
+         <font>
+            <Font name="System Bold" size="41.0" />
+         </font>
+      </Label>
+      <Label layoutX="460.0" layoutY="230.0" prefHeight="46.0" prefWidth="22.0" text="." textFill="RED">
+         <font>
+            <Font size="85.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

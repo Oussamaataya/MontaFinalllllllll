@@ -1,0 +1,13 @@
+
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ö‚£²ùÿÿÿÿ8Á­«ˆï1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(êÛç›úÿÿÿÿ8Â­«ˆï1
+O
+java:S11728"2Remove this unused method parameter "actionEvent".(±ÐíÐ8Û®«ˆï1
+o
+java:S3776>"RRefactor this method to reduce its Cognitive Complexity from 36 to the 15 allowed.(Úú“à8á®«ˆï1
+O
+java:S1172>"2Remove this unused method parameter "actionEvent".(Úú“à8â®«ˆï1
+U
+java:S1172¢"2Remove this unused method parameter "actionEvent".(ÊåáÀúÿÿÿÿ8ê®«ˆï1
+ã
+java:S6541>"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 97 to 64, Complexity from 18 to 14, Nesting Level from 4 to 2, Number of Variables from 12 to 6.(Úú“à8í®«ˆï1

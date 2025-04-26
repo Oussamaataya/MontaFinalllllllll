@@ -1,0 +1,15 @@
+
+h	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ƒÏ‚€ï1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(êÛç›úÿÿÿÿ8„Ï‚€ï1
+i	java:S1004"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í
+8–Ï‚€ï1
+n
+java:S37764"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(í
+8–Ï‚€ï1
+N
+java:S11724"2Remove this unused method parameter "actionEvent".(í
+8—Ï‚€ï1
+i
+java:S5998;"LRefactor this repetition that can lead to a stack overflow for large inputs.(şî­ƒ8™Ï‚€ï1
+F
+java:S1128")Remove this unused import 'java.io.File'.(†Ğ¥Å8ŞË²‡ï1

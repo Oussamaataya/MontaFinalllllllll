@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import io.github.palexdev.materialfx.controls.MFXButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.monta.OrderDetails">
+   <children>
+      <VBox spacing="20.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+         <children>
+            <HBox alignment="CENTER_LEFT" spacing="20.0">
+               <children>
+                  <Label fx:id="orderNumberLabel" text="Commande #123456">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="statusLabel" style="-fx-background-color: #4CAF50; -fx-text-fill: white; -fx-padding: 5px 10px; -fx-background-radius: 5px;" text="En cours de livraison">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <GridPane hgap="20.0" vgap="10.0">
+              <columnConstraints>
+                <columnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="150.0" />
+                <columnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="200.0" />
+                <columnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="150.0" />
+                <columnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="200.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <rowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <rowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <rowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label text="Date:">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="dateLabel" text="01/01/2023 12:34" GridPane.columnIndex="1" />
+                  <Label text="Méthode de paiement:" GridPane.columnIndex="2">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="paymentMethodLabel" text="Carte bancaire" GridPane.columnIndex="3" />
+                  <Label text="Client:" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="clientNameLabel" text="John Doe" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <Label text="Adresse:" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="addressLabel" text="123 Rue Example, 75000 Paris" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                  <Label text="Téléphone:" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="phoneLabel" text="06 12 34 56 78" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <Label text="Total:" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="totalLabel" text="42.99 €" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+               </children>
+            </GridPane>
+            <VBox spacing="5.0">
+               <children>
+                  <Label text="Instructions spéciales:">
+                     <font>
+                        <Font name="System Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="instructionsLabel" text="Laisser chez le voisin en cas d'absence" wrapText="true" />
+               </children>
+            </VBox>
+            <Label text="Produits:">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <TableView fx:id="productsTableView" VBox.vgrow="ALWAYS">
+              <columns>
+                <TableColumn fx:id="productNameCol" prefWidth="300.0" text="Produit" />
+                <TableColumn fx:id="quantityCol" prefWidth="100.0" text="Quantité" />
+                <TableColumn fx:id="priceCol" prefWidth="100.0" text="Prix unitaire" />
+                <TableColumn fx:id="subtotalCol" prefWidth="100.0" text="Sous-total" />
+              </columns>
+               <columnResizePolicy>
+                  <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+               </columnResizePolicy>
+            </TableView>
+            <HBox alignment="CENTER">
+               <children>
+                  <MFXButton buttonType="RAISED" onAction="#closeWindow" text="Fermer" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane> 

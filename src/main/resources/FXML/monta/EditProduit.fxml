@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="759.0" prefWidth="890.0" style="-fx-background-color: #f9f9f9; -fx-font-size: 16px; -fx-font-weight: bold; -fx-text-fill: #3cb550;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.monta.EditProduit">
+    <children>
+        <VBox prefHeight="759.0" prefWidth="200.0" style="-fx-background-color: #3cb550;">
+            <fx:include source="sidebar.fxml" />
+        </VBox>
+
+        <Label layoutX="350.0" layoutY="20.0" prefHeight="40.0" prefWidth="300.0" style="-fx-font-size: 22px; -fx-text-fill: #9dc023;" text="Modifier un Produit" />
+
+        <Label layoutX="220.0" layoutY="480.0" text="ID:" />
+        <TextField fx:id="idtf" layoutX="350.0" layoutY="475.0" prefHeight="40.0" prefWidth="500.0" editable="false" style="-fx-background-color: #f0f0f0; -fx-border-color: #3cb550; -fx-border-width: 2px;" />
+
+        <Label layoutX="220.0" layoutY="80.0" text="Nom Produit:" />
+        <TextField fx:id="nomProduittf" layoutX="350.0" layoutY="75.0" prefHeight="40.0" prefWidth="500.0" promptText="Entrez le nom du produit" style="-fx-background-color: #f0f0f0; -fx-border-color: #3cb550; -fx-border-width: 2px;" />
+
+        <Label layoutX="220.0" layoutY="130.0" text="Description:" />
+        <TextField fx:id="descriptiontf" layoutX="350.0" layoutY="125.0" prefHeight="40.0" prefWidth="500.0" promptText="Entrez la description" style="-fx-background-color: #f0f0f0; -fx-border-color: #3cb550; -fx-border-width: 2px;" />
+
+        <Label layoutX="220.0" layoutY="180.0" text="Image:" />
+        <TextField fx:id="imagetf" layoutX="350.0" layoutY="175.0" prefHeight="40.0" prefWidth="400.0" promptText="Entrez le chemin de l'image" style="-fx-background-color: #f0f0f0; -fx-border-color: #3cb550; -fx-border-width: 2px;" />
+        <Button layoutX="760.0" layoutY="175.0" onAction="#browseImage" prefHeight="40.0" prefWidth="90.0" style="-fx-background-color: #9dc023; -fx-text-fill: white;" text="Parcourir" />
+
+        <Label layoutX="220.0" layoutY="230.0" text="Quantité:" />
+        <TextField fx:id="quantitytf" layoutX="350.0" layoutY="225.0" prefHeight="40.0" prefWidth="500.0" promptText="Entrez la quantité" style="-fx-background-color: #f0f0f0; -fx-border-color: #3cb550; -fx-border-width: 2px;" />
+
+        <Label layoutX="220.0" layoutY="280.0" text="Prix:" />
+        <TextField fx:id="prixtf" layoutX="350.0" layoutY="275.0" prefHeight="40.0" prefWidth="500.0" promptText="Entrez le prix" style="-fx-background-color: #f0f0f0; -fx-border-color: #3cb550; -fx-border-width: 2px;" />
+
+        <Label layoutX="220.0" layoutY="330.0" text="Type de Produit:" />
+        <TextField fx:id="typeProduittf" layoutX="350.0" layoutY="325.0" prefHeight="40.0" prefWidth="500.0" promptText="Entrez le type de produit" style="-fx-background-color: #f0f0f0; -fx-border-color: #3cb550; -fx-border-width: 2px;" />
+
+        <Label layoutX="220.0" layoutY="380.0" text="Date Fabrication:" />
+        <TextField fx:id="dateFabricationtf" layoutX="350.0" layoutY="375.0" prefHeight="40.0" prefWidth="500.0" promptText="Format: dd/MM/yyyy" style="-fx-background-color: #f0f0f0; -fx-border-color: #3cb550; -fx-border-width: 2px;" />
+
+        <Label layoutX="220.0" layoutY="430.0" text="Date Expiration:" />
+        <TextField fx:id="dateExpirationtf" layoutX="350.0" layoutY="425.0" prefHeight="40.0" prefWidth="500.0" promptText="Format: dd/MM/yyyy" style="-fx-background-color: #f0f0f0; -fx-border-color: #3cb550; -fx-border-width: 2px;" />
+
+        <Button layoutX="250.0" layoutY="550.0" onAction="#EditProduit" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #9dc023; -fx-text-fill: white; -fx-font-size: 16px;" text="Modifier" />
+        <Button layoutX="650.0" layoutY="550.0" onAction="#naviguer2" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #9dc023; -fx-text-fill: white; -fx-font-size: 16px;" text="Liste des produits" />
+    </children>
+</AnchorPane>

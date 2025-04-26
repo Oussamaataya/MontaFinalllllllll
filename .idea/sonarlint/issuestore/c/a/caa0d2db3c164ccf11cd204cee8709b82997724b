@@ -1,0 +1,31 @@
+
+g	java:S112E"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ã¯×‰ï1
+Q
+java:S37405"/Provide the parametrized type for this generic.(û’è©øÿÿÿÿ8º¼É‰ï1
+e
+java:S1192H"HDefine a constant instead of duplicating this literal "Patient" 3 times.(«±‹„8ä¯×‰ï1
+c
+java:S1192H"FDefine a constant instead of duplicating this literal "Admin" 3 times.(«±‹„8ä¯×‰ï1
+Z
+java:S4973¡"<Strings and Boxed types should be compared using "equals()".(½Ôþ¯8»¼É‰ï1
+_
+java:S4973£"<Strings and Boxed types should be compared using "equals()".(©û¿Ôúÿÿÿÿ8¼¼É‰ï1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(êÛç›úÿÿÿÿ8¼¼É‰ï1
+T
+java:S1172["2Remove this unused method parameter "actionEvent".( ýìäýÿÿÿÿ8Þ¼É‰ï1
+O
+java:S1172c"2Remove this unused method parameter "actionEvent".(àÝâæ8â¼É‰ï1
+t
+java:S3776h"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(¹´¾¯ÿÿÿÿÿ8ä¼É‰ï1
+T
+java:S1172h"2Remove this unused method parameter "actionEvent".(¹´¾¯ÿÿÿÿÿ8å¼É‰ï1
+S
+java:S1128"6Remove this unused import 'javafx.fxml.Initializable'.(™ÎùÆ8¬»Þ‰ï1
+h
+java:S1128"FRemove this unused import 'javafx.scene.control.SingleSelectionModel'.(¾½ì¡ýÿÿÿÿ8±êÞ‰ï1
+K
+java:S1128")Remove this unused import 'java.net.URL'.(ñìÁ„üÿÿÿÿ8¬»Þ‰ï1
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8­»Þ‰ï1
+W
+java:S1128"5Remove this unused import 'java.util.ResourceBundle'.(ýÆ£¯øÿÿÿÿ8­»Þ‰ï1

@@ -1,0 +1,11 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÕıŞÖùÿÿÿÿ8ö„Õãî1
+C
+java:S1948
+"&Make "user" transient or serializable.(ÕĞø¡8Œê¨şî1
+¶
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(·¿¯Ğ8ù„Õãî1
+S
+java:S2696&"6Make the enclosing method "static" or remove this set.(Ü˜ôê8û„Õãî1
+R
+java:S2209&"5Change this instance-reference to a static reference.(Ü˜ôê8û„Õãî1

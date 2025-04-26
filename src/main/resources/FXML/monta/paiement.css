@@ -1,0 +1,41 @@
+.section-title {
+    -fx-text-fill: #333333;
+    -fx-padding: 0 0 10 0;
+}
+
+.total-label {
+    -fx-text-fill: #4CAF50;
+    -fx-padding: 20 0;
+}
+
+.mfx-text-field {
+    -fx-background-color: white;
+    -fx-background-radius: 5;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5;
+    -fx-padding: 5;
+}
+
+.mfx-text-field:focused {
+    -fx-border-color: #4CAF50;
+}
+
+.mfx-combo-box {
+    -fx-background-color: white;
+    -fx-background-radius: 5;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5;
+}
+
+.mfx-combo-box:focused {
+    -fx-border-color: #4CAF50;
+}
+
+.mfx-button {
+    -fx-background-radius: 5;
+    -fx-padding: 10 20;
+}
+
+.mfx-button:hover {
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 10, 0, 0, 0);
+} 

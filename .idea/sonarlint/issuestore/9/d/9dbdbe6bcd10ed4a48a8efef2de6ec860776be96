@@ -1,0 +1,54 @@
+
+h
+java:S1192R"FDefine a constant instead of duplicating this literal "roles" 3 times.(ΧΝ€›όÿÿÿÿ8ξγνÿξ1
+f
+java:S1192\"IDefine a constant instead of duplicating this literal "password" 3 times.(‡ύª8ογνÿξ1
+k
+java:S1192S"IDefine a constant instead of duplicating this literal "num_cnam" 3 times.(»”ζβϊÿÿÿÿ8ογνÿξ1
+l
+java:S1192I"JDefine a constant instead of duplicating this literal "SELECT * " 3 times.(΄™έρϋÿÿÿÿ8ογνÿξ1
+i
+java:S1192Q"GDefine a constant instead of duplicating this literal "prenom" 3 times.(ϊΠΖθώÿÿÿÿ8ογνÿξ1
+c
+java:S1192["FDefine a constant instead of duplicating this literal "email" 3 times.(ψ‹¬¶8ογνÿξ1
+i
+java:S1192Y"LDefine a constant instead of duplicating this literal "reset_token" 3 times.(φώϋ 8ογνÿξ1
+d
+java:S1192X"GDefine a constant instead of duplicating this literal "avatar" 3 times.(•·ύ¤8ογνÿξ1
+c
+java:S1192Z"FDefine a constant instead of duplicating this literal "verif" 3 times.(βπΤα8ογνÿξ1
+u
+java:S1192Ά"RDefine a constant instead of duplicating this literal "UPDATE users SET " 3 times.(δςκÿÿÿÿÿ8Ά­άο1
+e
+java:S1192W"HDefine a constant instead of duplicating this literal "adresse" 3 times.(κΩ”8ογνÿξ1
+c
+java:S1192U"GDefine a constant instead of duplicating this literal "status" 3 times.(ΕΘΏ}8ογνÿξ1
+r	java:S117H"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Ϊψύÿÿÿÿ8ογνÿξ1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(§„έ¬8πγνÿξ1
+e
+java:S3973ή"GUse indentation to denote the code conditionally executed by this "if".(ίχΉ8πγνÿξ1
+d
+java:S2095K"GUse try-with-resources or close this "Statement" in a "finally" clause.(ε‘ά½8Ιδνÿξ1
+d
+java:S2095h"GUse try-with-resources or close this "Statement" in a "finally" clause.(ε‘ά½8Ιδνÿξ1
+e
+java:S2095…"GUse try-with-resources or close this "Statement" in a "finally" clause.(ε‘ά½8ΐδνÿξ1
+e
+java:S2095ω"GUse try-with-resources or close this "Statement" in a "finally" clause.(ε‘ά½8ΐδνÿξ1
+m
+java:S2095ª"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ήΠώ©8ΐΰάο1
+m
+java:S2095Κ"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ήΠώ©8ΐδνÿξ1
+r
+java:S2095…"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ϋ©Σ‹ÿÿÿÿÿ8ψχωÿξ1
+l
+java:S20951"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ήΠώ©8ΐδνÿξ1
+>
+java:S1116"Remove this empty statement.(©Ε“Εϋÿÿÿÿ8Μδνÿξ1
+d
+java:S1126V"BReplace this if-then-else statement by a single method invocation.(¦±ζοωÿÿÿÿ8Ρδνÿξ1
+d
+java:S1126r"BReplace this if-then-else statement by a single method invocation.(¦±ζοωÿÿÿÿ8Σδνÿξ1
+e
+java:S1126"BReplace this if-then-else statement by a single method invocation.(¦±ζοωÿÿÿÿ8Υδνÿξ1
+p	java:S100Ί"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΪΪκώÿÿÿÿ8Χΰάο1

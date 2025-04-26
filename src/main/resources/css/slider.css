@@ -1,0 +1,30 @@
+.Slider {
+    width: 200px;
+    height: 20px;
+    background-color: #f8e2e2;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+.Slider-thumb {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    background-color: #e8c0c0;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.Slider-track {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 5px;
+    width: 100%;
+    background-color: #f8e2e2;
+    border-radius: 5px;
+}

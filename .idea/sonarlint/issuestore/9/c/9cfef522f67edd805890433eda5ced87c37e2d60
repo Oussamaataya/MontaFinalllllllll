@@ -1,0 +1,21 @@
+
+h	java:S112Ñ"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8×è²‚ï1
+Q
+java:S3740@"/Provide the parametrized type for this generic.(û’è©øÿÿÿÿ8¿¾¯‚ï1
+Z
+java:S4973·"<Strings and Boxed types should be compared using "equals()".(½Ôþ¯8À¾¯‚ï1
+_
+java:S4973¹"<Strings and Boxed types should be compared using "equals()".(©û¿Ôúÿÿÿÿ8À¾¯‚ï1
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(êÛç›úÿÿÿÿ8Á¾¯‚ï1
+T
+java:S1172E"2Remove this unused method parameter "actionEvent".( ýìäýÿÿÿÿ8Ë¿¯‚ï1
+O
+java:S1172M"2Remove this unused method parameter "actionEvent".(àÝâæ8Ð¿¯‚ï1
+T
+java:S1172Q"2Remove this unused method parameter "actionEvent".(ÊåáÀúÿÿÿÿ8Ð¿¯‚ï1
+t
+java:S3776_"RRefactor this method to reduce its Cognitive Complexity from 42 to the 15 allowed.(¹´¾¯ÿÿÿÿÿ8Ñ¿¯‚ï1
+T
+java:S1172_"2Remove this unused method parameter "actionEvent".(¹´¾¯ÿÿÿÿÿ8Ò¿¯‚ï1
+è
+java:S6541_"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 104 to 64, Complexity from 21 to 14, Nesting Level from 4 to 2, Number of Variables from 9 to 6.(¹´¾¯ÿÿÿÿÿ8¶þ—‰ï1
