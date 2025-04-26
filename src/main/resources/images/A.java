@@ -1,1 +1,0 @@
-je effacer les com de java et resources et je deplacer les dossiers images vers ressources alors corretcer tous ce que est necessaire dans tous  le projet 
